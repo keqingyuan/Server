@@ -33,6 +33,7 @@ config.add = function(data, callback){
     });
   });
 };
+//更新金额
 config.update = function(data,callback){
   console.log(data.money);
   console.log(data.cardNo);
